@@ -1,0 +1,113 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT",
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "325bea60-ab1a-11f1-b747-f73439e59bea"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "5da17dc0-ab1a-11f1-9b75-572f450238a2"
+    },
+    "label" : "Biomedical Equipment Gateway",
+    "name" : "ESP32-GW",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "esp32-gateway"
+  },
+  "credentials" : {
+    "credentialsId" : "pPbNrZ19Zr0NsWFdRTB8",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1791574087097,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "activeDeviceLabel",
+      "lastUpdateTs" : 1791573380490,
+      "longValue" : null,
+      "strValue" : "Patient Monitor"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1791574087094,
+      "longValue" : 1791574087093,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1791573449417,
+      "longValue" : 1791573446900,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1791573113790,
+      "longValue" : 1791573113790,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1791573446906,
+      "longValue" : 1791573446906,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "previousActiveDevice",
+      "lastUpdateTs" : 1791573380490,
+      "longValue" : null,
+      "strValue" : "PM-001"
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active_device",
+      "lastUpdateTs" : 1791573380440,
+      "longValue" : null,
+      "strValue" : "PM-001"
+    } ]
+  },
+  "calculatedFields" : [ ]
+}

@@ -1,0 +1,62 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "5f70e2f0-90b5-11f1-883e-271c9fe4b5ff"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "657fa320-90b5-11f1-85a0-35ba357c307b"
+    },
+    "label" : null,
+    "name" : "DUFUTH",
+    "ownerId" : null,
+    "type" : "Hospital"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Address",
+      "lastUpdateTs" : 1785929719551,
+      "longValue" : null,
+      "strValue" : "DUFUTH, Uburu, Ebonyi State"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Email",
+      "lastUpdateTs" : 1785929770390,
+      "longValue" : null,
+      "strValue" : "deindomitable@gmail.com"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "HOD",
+      "lastUpdateTs" : 1785929851904,
+      "longValue" : null,
+      "strValue" : "Indomitable"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Phone",
+      "lastUpdateTs" : 1785931712299,
+      "longValue" : 8104065692,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}
