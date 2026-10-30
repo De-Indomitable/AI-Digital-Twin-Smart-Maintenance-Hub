@@ -1745,9 +1745,9 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8b52c0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "temp_mean",
                 "type" : "timeseries",
@@ -1911,9 +1911,9 @@
           "sizeY" : 5,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8b52c0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "pressure_mean",
                 "type" : "timeseries",
@@ -2072,9 +2072,9 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8b52c0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "risk_score",
                 "type" : "timeseries",
@@ -2189,11 +2189,11 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8b52c0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "power_mean",
+                "name" : "voltage_V",
                 "type" : "timeseries",
                 "label" : "Supply Voltage",
                 "color" : "#2196f3",
@@ -2355,11 +2355,11 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8b52c0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "power_mean",
+                "name" : "current_A",
                 "type" : "timeseries",
                 "label" : "Current",
                 "color" : "#2196f3",
@@ -2521,9 +2521,9 @@
           "sizeY" : 5,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8b52c0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "accel_x_rms",
                 "type" : "timeseries",
@@ -2532,6 +2532,7 @@
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
+                  "dataHiddenByDefault" : false,
                   "type" : "line",
                   "lineSettings" : {
                     "showLine" : true,
@@ -2540,8 +2541,8 @@
                     "smooth" : false,
                     "lineType" : "solid",
                     "lineWidth" : 2,
-                    "showPoints" : true,
-                    "showPointLabel" : true,
+                    "showPoints" : false,
+                    "showPointLabel" : false,
                     "pointLabelPosition" : "top",
                     "pointLabelFont" : {
                       "family" : "Roboto",
@@ -2595,16 +2596,10 @@
                     "showValuesForComparison" : false,
                     "comparisonValuesLabel" : "",
                     "color" : ""
-                  },
-                  "dataHiddenByDefault" : false,
-                  "tooltipValueFormatter" : null
+                  }
                 },
                 "units" : "m/s²",
-                "decimals" : 0,
-                "aggregationType" : null,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "decimals" : 2
               }, {
                 "name" : "accel_y_rms",
                 "type" : "timeseries",
@@ -2613,6 +2608,7 @@
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
+                  "dataHiddenByDefault" : false,
                   "type" : "line",
                   "lineSettings" : {
                     "showLine" : true,
@@ -2621,8 +2617,8 @@
                     "smooth" : false,
                     "lineType" : "solid",
                     "lineWidth" : 2,
-                    "showPoints" : true,
-                    "showPointLabel" : true,
+                    "showPoints" : false,
+                    "showPointLabel" : false,
                     "pointLabelPosition" : "top",
                     "pointLabelFont" : {
                       "family" : "Roboto",
@@ -2676,16 +2672,10 @@
                     "showValuesForComparison" : false,
                     "comparisonValuesLabel" : "",
                     "color" : ""
-                  },
-                  "dataHiddenByDefault" : false,
-                  "tooltipValueFormatter" : null
+                  }
                 },
                 "units" : "m/s²",
-                "decimals" : 0,
-                "aggregationType" : null,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "decimals" : 2
               }, {
                 "name" : "accel_z_rms",
                 "type" : "timeseries",
@@ -2694,6 +2684,7 @@
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
+                  "dataHiddenByDefault" : false,
                   "type" : "line",
                   "lineSettings" : {
                     "showLine" : true,
@@ -2702,8 +2693,8 @@
                     "smooth" : false,
                     "lineType" : "solid",
                     "lineWidth" : 2,
-                    "showPoints" : true,
-                    "showPointLabel" : true,
+                    "showPoints" : false,
+                    "showPointLabel" : false,
                     "pointLabelPosition" : "top",
                     "pointLabelFont" : {
                       "family" : "Roboto",
@@ -2757,16 +2748,10 @@
                     "showValuesForComparison" : false,
                     "comparisonValuesLabel" : "",
                     "color" : ""
-                  },
-                  "dataHiddenByDefault" : false,
-                  "tooltipValueFormatter" : null
+                  }
                 },
                 "units" : "m/s²",
-                "decimals" : 0,
-                "aggregationType" : null,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "decimals" : 2
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -2780,13 +2765,15 @@
             "settings" : {
               "showLegend" : true,
               "legendConfig" : {
+                "direction" : "column",
                 "position" : "top",
                 "sortDataKeys" : false,
                 "showMin" : true,
                 "showMax" : true,
                 "showAvg" : true,
                 "showTotal" : false,
-                "showLatest" : false
+                "showLatest" : false,
+                "valueFormat" : null
               },
               "thresholds" : [ ],
               "dataZoom" : true,
@@ -3040,7 +3027,8 @@
               },
               "tooltipLabelColor" : "rgba(0, 0, 0, 0.76)",
               "tooltipHideZeroValues" : null,
-              "tooltipStackedShowTotal" : false
+              "tooltipStackedShowTotal" : false,
+              "dataZoomUpdateTimewindow" : false
             },
             "title" : "Vibration History",
             "dropShadow" : true,
@@ -3092,8 +3080,8 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "interval" : 3600000,
-                "timewindowMs" : 604800000
+                "interval" : 120000,
+                "timewindowMs" : 7200000
               },
               "aggregation" : {
                 "type" : "AVG"
@@ -7502,5 +7490,6 @@
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
-  }
+  },
+  "calculatedFields" : [ ]
 }
