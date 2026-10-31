@@ -377,9 +377,9 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8d9cb0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "temp_mean",
                 "type" : "timeseries",
@@ -543,11 +543,11 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8d9cb0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "power_mean",
+                "name" : "voltage_V",
                 "type" : "timeseries",
                 "label" : "Supply Voltage",
                 "color" : "#2196f3",
@@ -709,9 +709,9 @@
           "sizeY" : 2.5,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8d9cb0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "battery_percentage",
                 "type" : "timeseries",
@@ -880,11 +880,11 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f8d9cb0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "power_mean",
+                "name" : "current_A",
                 "type" : "timeseries",
                 "label" : "Current",
                 "color" : "#2196f3",
