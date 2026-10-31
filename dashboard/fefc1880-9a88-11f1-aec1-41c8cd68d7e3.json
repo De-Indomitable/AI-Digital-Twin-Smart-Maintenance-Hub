@@ -1915,9 +1915,9 @@
               "name" : "",
               "deviceId" : "4f8b52c0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "pressure_mean",
+                "name" : "pressure_neg_mean",
                 "type" : "timeseries",
-                "label" : "pressure_mean",
+                "label" : "pressure_neg_mean",
                 "color" : "#2196f3",
                 "settings" : { }
               } ],
@@ -1934,8 +1934,8 @@
               "ticksAngle" : 225,
               "needleCircleSize" : 7,
               "defaultColor" : "#e65100",
-              "minValue" : 0,
-              "maxValue" : 20,
+              "minValue" : -100,
+              "maxValue" : 0,
               "majorTicksCount" : 12,
               "colorMajorTicks" : "#444",
               "minorTicks" : 12,
@@ -7396,7 +7396,7 @@
                   "sizeY" : 7,
                   "mobileHeight" : null,
                   "row" : 0,
-                  "col" : 12
+                  "col" : 13
                 },
                 "c337459d-6fa4-c064-eda4-5a9d73ba02c4" : {
                   "sizeX" : 5,
