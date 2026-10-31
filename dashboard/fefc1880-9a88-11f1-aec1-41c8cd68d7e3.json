@@ -4564,9 +4564,9 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f900db0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "temp_mean",
                 "type" : "timeseries",
@@ -4730,13 +4730,13 @@
           "sizeY" : 5,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f900db0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "pressure_mean",
+                "name" : "pressure_pos_mean",
                 "type" : "timeseries",
-                "label" : "pressure_mean",
+                "label" : "pressure_pos_mean",
                 "color" : "#2196f3",
                 "settings" : { }
               } ],
@@ -4754,7 +4754,7 @@
               "needleCircleSize" : 7,
               "defaultColor" : "#e65100",
               "minValue" : 0,
-              "maxValue" : 20,
+              "maxValue" : 200,
               "majorTicksCount" : 12,
               "colorMajorTicks" : "#444",
               "minorTicks" : 12,
@@ -4890,11 +4890,11 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f900db0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "power_mean",
+                "name" : "current_A",
                 "type" : "timeseries",
                 "label" : "Current",
                 "color" : "#2196f3",
@@ -5056,11 +5056,11 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f900db0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "power_mean",
+                "name" : "voltage_V",
                 "type" : "timeseries",
                 "label" : "Supply Voltage",
                 "color" : "#2196f3",
@@ -5222,9 +5222,9 @@
           "sizeY" : 5,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f900db0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "accel_x_rms",
                 "type" : "timeseries",
@@ -5463,13 +5463,15 @@
             "settings" : {
               "showLegend" : true,
               "legendConfig" : {
+                "direction" : "column",
                 "position" : "top",
                 "sortDataKeys" : false,
                 "showMin" : true,
                 "showMax" : true,
                 "showAvg" : true,
                 "showTotal" : false,
-                "showLatest" : false
+                "showLatest" : false,
+                "valueFormat" : null
               },
               "thresholds" : [ ],
               "dataZoom" : true,
@@ -5723,7 +5725,8 @@
               },
               "tooltipLabelColor" : "rgba(0, 0, 0, 0.76)",
               "tooltipHideZeroValues" : null,
-              "tooltipStackedShowTotal" : false
+              "tooltipStackedShowTotal" : false,
+              "dataZoomUpdateTimewindow" : false
             },
             "title" : "Vibration History",
             "dropShadow" : true,
@@ -5774,9 +5777,9 @@
             "timewindow" : {
               "selectedTab" : 0,
               "realtime" : {
-                "realtimeType" : 1,
-                "interval" : 3600000,
-                "quickInterval" : "CURRENT_WEEK"
+                "realtimeType" : 0,
+                "interval" : 120000,
+                "timewindowMs" : 7200000
               },
               "aggregation" : {
                 "type" : "AVG"
@@ -5796,9 +5799,9 @@
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "33f68b11-3a31-1c8f-0869-e6bef371ce45",
+              "deviceId" : "4f900db0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
                 "name" : "risk_score",
                 "type" : "timeseries",
