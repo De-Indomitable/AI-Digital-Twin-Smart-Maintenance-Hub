@@ -713,9 +713,9 @@
               "name" : "",
               "deviceId" : "4f8d9cb0-9020-11f1-be6c-6b7076fe8a8d",
               "dataKeys" : [ {
-                "name" : "battery_voltage_V",
+                "name" : "battery_percentage",
                 "type" : "timeseries",
-                "label" : "battery_voltage_V",
+                "label" : "battery_percentage",
                 "color" : "#2196f3",
                 "settings" : { }
               } ],
