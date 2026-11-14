@@ -7087,6 +7087,55 @@
           "row" : 0,
           "col" : 0,
           "id" : "a4bc5f86-a51e-13d8-861d-2ae4ed35aeaa"
+        },
+        "56d85861-ff7d-485a-3106-cfe8f45033ea" : {
+          "typeFullFqn" : "system.input_widgets.update_multiple_attributes",
+          "type" : "latest",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : "",
+              "entityAliasId" : "608a7480-a6ae-812b-382d-b73af6852372",
+              "dataKeys" : [ {
+                "name" : "accel_x",
+                "type" : "timeseries",
+                "label" : "accel_x",
+                "color" : "#2196f3",
+                "settings" : { }
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "groupTitle" : "${entityName}",
+              "showActionButtons" : true,
+              "fieldsAlignment" : "row",
+              "fieldsInRow" : 2,
+              "columnGap" : 10,
+              "rowGap" : 5
+            },
+            "title" : "Update Multiple Attributes",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "enableDataExport" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false,
+            "actions" : { }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "56d85861-ff7d-485a-3106-cfe8f45033ea"
         }
       },
       "states" : {
@@ -7149,6 +7198,12 @@
                   "sizeY" : 6,
                   "row" : 10,
                   "col" : 7
+                },
+                "56d85861-ff7d-485a-3106-cfe8f45033ea" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 8,
+                  "col" : 15
                 }
               },
               "gridSettings" : {
@@ -7455,6 +7510,18 @@
             "resolveMultiple" : false,
             "stateEntityParamName" : null,
             "defaultStateEntity" : null
+          }
+        },
+        "608a7480-a6ae-812b-382d-b73af6852372" : {
+          "id" : "608a7480-a6ae-812b-382d-b73af6852372",
+          "alias" : "ESP32",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "5da17dc0-ab1a-11f1-9b75-572f450238a2"
+            }
           }
         }
       },
