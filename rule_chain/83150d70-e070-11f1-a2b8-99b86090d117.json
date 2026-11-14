@@ -14,7 +14,7 @@
       "id" : "83150d70-e070-11f1-a2b8-99b86090d117"
     },
     "name" : "Gateway Alert Rule Chain V3",
-    "root" : false,
+    "root" : true,
     "type" : "CORE"
   },
   "metaData" : {
@@ -852,8 +852,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Input widget must write alertPhoneNumber as a gateway server attribute in E.164 format.",
-        "layoutX" : 1300,
-        "layoutY" : 535
+        "layoutX" : 1593,
+        "layoutY" : 727
       },
       "configuration" : {
         "tellFailureIfAbsent" : true,
@@ -1231,8 +1231,8 @@
     }, {
       "additionalInfo" : {
         "description" : "The alert may be raised on the equipment device, but alertPhoneNumber lives on ESP32-GW and the modem is on ESP32-GW. Switch the originator here, BEFORE the attribute is fetched, so both the lookup and the RPC land on the gateway.",
-        "layoutX" : 1010,
-        "layoutY" : 535
+        "layoutX" : 1072,
+        "layoutY" : 618
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
