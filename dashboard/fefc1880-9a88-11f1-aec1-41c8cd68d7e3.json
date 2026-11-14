@@ -7099,9 +7099,9 @@
               "name" : "",
               "entityAliasId" : "608a7480-a6ae-812b-382d-b73af6852372",
               "dataKeys" : [ {
-                "name" : "accel_x",
-                "type" : "timeseries",
-                "label" : "accel_x",
+                "name" : "alertPhoneNumber",
+                "type" : "attribute",
+                "label" : "alertPhoneNumber",
                 "color" : "#2196f3",
                 "settings" : { }
               } ],
