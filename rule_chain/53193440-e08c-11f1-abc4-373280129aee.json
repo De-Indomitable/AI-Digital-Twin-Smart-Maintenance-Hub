@@ -885,8 +885,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Reject missing or non-E.164 numbers before requesting SMS or call.",
-        "layoutX" : 1523,
-        "layoutY" : 732
+        "layoutX" : 1567,
+        "layoutY" : 701
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -897,7 +897,7 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1794733013623,
+        "allEnabledUntil" : 1794740861376,
         "failuresEnabled" : false
       },
       "externalId" : null,
@@ -925,7 +925,7 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1794733013623,
+        "allEnabledUntil" : 1794740861376,
         "failuresEnabled" : false
       },
       "externalId" : null,
@@ -951,7 +951,7 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1794733013623,
+        "allEnabledUntil" : 1794740861376,
         "failuresEnabled" : false
       },
       "externalId" : null,
@@ -979,7 +979,7 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1794733013623,
+        "allEnabledUntil" : 1794740861376,
         "failuresEnabled" : false
       },
       "externalId" : null,
@@ -994,6 +994,7 @@
       "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     }, {
       "additionalInfo" : {
+        "description" : null,
         "layoutX" : 2000,
         "layoutY" : 595
       },
@@ -1004,7 +1005,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugSettings" : null,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1794740861376,
+        "failuresEnabled" : false
+      },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
