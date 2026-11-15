@@ -885,8 +885,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Reject missing or non-E.164 numbers before requesting SMS or call.",
-        "layoutX" : 1579,
-        "layoutY" : 724
+        "layoutX" : 1523,
+        "layoutY" : 732
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -942,10 +942,10 @@
       "additionalInfo" : {
         "description" : "Sends the RPC to the gateway device that originated the alert event.",
         "layoutX" : 1744,
-        "layoutY" : 533
+        "layoutY" : 557
       },
       "configuration" : {
-        "timeoutInSeconds" : 120
+        "timeoutInSeconds" : 3000
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
