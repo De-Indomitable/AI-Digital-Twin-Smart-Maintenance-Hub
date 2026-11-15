@@ -7088,7 +7088,7 @@
           "col" : 0,
           "id" : "a4bc5f86-a51e-13d8-861d-2ae4ed35aeaa"
         },
-        "56d85861-ff7d-485a-3106-cfe8f45033ea" : {
+        "99f72d16-0b4e-6e2d-aa03-850edf23e015" : {
           "typeFullFqn" : "system.input_widgets.update_multiple_attributes",
           "type" : "latest",
           "sizeX" : 7.5,
@@ -7135,7 +7135,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "56d85861-ff7d-485a-3106-cfe8f45033ea"
+          "id" : "99f72d16-0b4e-6e2d-aa03-850edf23e015"
         }
       },
       "states" : {
@@ -7199,11 +7199,11 @@
                   "row" : 10,
                   "col" : 7
                 },
-                "56d85861-ff7d-485a-3106-cfe8f45033ea" : {
+                "99f72d16-0b4e-6e2d-aa03-850edf23e015" : {
                   "sizeX" : 7,
                   "sizeY" : 3,
-                  "row" : 8,
-                  "col" : 15
+                  "row" : 6,
+                  "col" : 13
                 }
               },
               "gridSettings" : {
