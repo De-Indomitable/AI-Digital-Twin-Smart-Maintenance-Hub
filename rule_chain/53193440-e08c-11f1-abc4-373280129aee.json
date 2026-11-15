@@ -853,8 +853,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Input widget must write alertPhoneNumber as a gateway server attribute in E.164 format.",
-        "layoutX" : 1300,
-        "layoutY" : 535
+        "layoutX" : 1297,
+        "layoutY" : 594
       },
       "configuration" : {
         "tellFailureIfAbsent" : true,
@@ -869,7 +869,7 @@
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1794732095626,
+        "allEnabledUntil" : 1794733013623,
         "failuresEnabled" : false
       },
       "externalId" : null,
@@ -885,8 +885,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Reject missing or non-E.164 numbers before requesting SMS or call.",
-        "layoutX" : 1520,
-        "layoutY" : 535
+        "layoutX" : 1579,
+        "layoutY" : 724
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -895,7 +895,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugSettings" : null,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1794733013623,
+        "failuresEnabled" : false
+      },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -909,8 +913,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Medium/high: SMS. High only: SMS plus a 20-second call. RPC contract: sendAlert({eventId, phoneNumber, tier, device, riskScore, message, channels[, callDurationSeconds]}).",
-        "layoutX" : 1740,
-        "layoutY" : 535
+        "layoutX" : 1748,
+        "layoutY" : 356
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -919,7 +923,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugSettings" : null,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1794733013623,
+        "failuresEnabled" : false
+      },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -933,15 +941,19 @@
     }, {
       "additionalInfo" : {
         "description" : "Sends the RPC to the gateway device that originated the alert event.",
-        "layoutX" : 1780,
-        "layoutY" : 535
+        "layoutX" : 1744,
+        "layoutY" : 533
       },
       "configuration" : {
         "timeoutInSeconds" : 120
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugSettings" : null,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1794733013623,
+        "failuresEnabled" : false
+      },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -954,6 +966,7 @@
       "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
     }, {
       "additionalInfo" : {
+        "description" : null,
         "layoutX" : 2000,
         "layoutY" : 495
       },
@@ -964,7 +977,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugSettings" : null,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1794733013623,
+        "failuresEnabled" : false
+      },
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
