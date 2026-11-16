@@ -156,167 +156,62 @@
                 "type" : "timeseries",
                 "label" : "voltage_V",
                 "color" : "#3f51b5",
-                "settings" : {
-                  "customTitle" : "",
-                  "columnWidth" : "0px",
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "useCellContentFunctionOnExport" : true,
-                  "cellContentFunction" : "",
-                  "defaultColumnVisibility" : "hidden",
-                  "columnSelectionToDisplay" : "enabled",
-                  "columnExportOption" : "onlyVisible",
-                  "disableSorting" : false
-                },
+                "settings" : { },
                 "units" : "V",
-                "decimals" : 0,
-                "aggregationType" : "NONE",
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "decimals" : 0
               }, {
                 "name" : "current_A",
                 "type" : "timeseries",
                 "label" : "current_A",
                 "color" : "#ffc107",
-                "settings" : {
-                  "customTitle" : "",
-                  "columnWidth" : "0px",
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "useCellContentFunctionOnExport" : true,
-                  "cellContentFunction" : "",
-                  "defaultColumnVisibility" : "hidden",
-                  "columnSelectionToDisplay" : "enabled",
-                  "columnExportOption" : "onlyVisible",
-                  "disableSorting" : false
-                },
+                "settings" : { },
                 "units" : "A",
-                "decimals" : 1,
-                "aggregationType" : "NONE",
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "decimals" : 1
               }, {
                 "name" : "accel_resultant_rms",
                 "type" : "timeseries",
                 "label" : "accel_resultant_rms",
                 "color" : "#4caf50",
-                "settings" : {
-                  "customTitle" : "",
-                  "columnWidth" : "0px",
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "useCellContentFunctionOnExport" : true,
-                  "cellContentFunction" : "",
-                  "defaultColumnVisibility" : "hidden",
-                  "columnSelectionToDisplay" : "enabled",
-                  "columnExportOption" : "onlyVisible",
-                  "disableSorting" : false
-                },
-                "decimals" : 2,
-                "aggregationType" : "NONE",
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "settings" : { },
+                "decimals" : 2
               }, {
                 "name" : "battery_voltage_V",
                 "type" : "timeseries",
                 "label" : "battery_voltage_V",
                 "color" : "#f44336",
-                "settings" : {
-                  "customTitle" : "",
-                  "columnWidth" : "0px",
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "useCellContentFunctionOnExport" : true,
-                  "cellContentFunction" : "",
-                  "defaultColumnVisibility" : "hidden",
-                  "columnSelectionToDisplay" : "enabled",
-                  "columnExportOption" : "onlyVisible",
-                  "disableSorting" : false
-                },
+                "settings" : { },
                 "units" : "V",
-                "decimals" : 1,
-                "aggregationType" : "NONE",
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "decimals" : 1
               }, {
                 "name" : "temp_mean",
                 "type" : "timeseries",
                 "label" : "temp_mean",
                 "color" : "#8bc34a",
-                "settings" : {
-                  "customTitle" : "",
-                  "columnWidth" : "0px",
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "useCellContentFunctionOnExport" : true,
-                  "cellContentFunction" : "",
-                  "defaultColumnVisibility" : "hidden",
-                  "columnSelectionToDisplay" : "enabled",
-                  "columnExportOption" : "onlyVisible",
-                  "disableSorting" : false
-                },
+                "settings" : { },
                 "units" : "°C",
-                "decimals" : 1,
-                "aggregationType" : "NONE",
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "decimals" : 1
               }, {
-                "name" : "pressure_mean",
+                "name" : "pressure_pos_mean",
                 "type" : "timeseries",
                 "label" : "pressure_mean",
                 "color" : "#9c27b0",
-                "settings" : {
-                  "customTitle" : "",
-                  "columnWidth" : "0px",
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "useCellContentFunctionOnExport" : true,
-                  "cellContentFunction" : "",
-                  "defaultColumnVisibility" : "hidden",
-                  "columnSelectionToDisplay" : "enabled",
-                  "columnExportOption" : "onlyVisible",
-                  "disableSorting" : false
-                },
+                "settings" : { },
                 "units" : "kPa",
-                "decimals" : 1,
-                "aggregationType" : "NONE",
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "decimals" : 1
+              }, {
+                "name" : "pressure_neg_mean",
+                "type" : "timeseries",
+                "label" : "pressure_neg_mean",
+                "color" : "#ffeb3b",
+                "settings" : { },
+                "decimals" : 0
               }, {
                 "name" : "risk_score",
                 "type" : "timeseries",
                 "label" : "risk_score",
                 "color" : "#e91e63",
-                "settings" : {
-                  "customTitle" : "",
-                  "columnWidth" : "0px",
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "useCellContentFunctionOnExport" : true,
-                  "cellContentFunction" : "",
-                  "defaultColumnVisibility" : "hidden",
-                  "columnSelectionToDisplay" : "enabled",
-                  "columnExportOption" : "onlyVisible",
-                  "disableSorting" : false
-                },
-                "decimals" : 0,
-                "aggregationType" : "NONE",
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "settings" : { },
+                "decimals" : 0
               }, {
                 "name" : "telemetry_value",
                 "type" : "timeseries",
