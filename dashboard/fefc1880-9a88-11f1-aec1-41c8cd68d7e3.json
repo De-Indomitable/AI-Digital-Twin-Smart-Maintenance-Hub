@@ -136,7 +136,7 @@
                 "color" : "#2196f3",
                 "settings" : {
                   "customTitle" : "",
-                  "columnWidth" : "4px",
+                  "columnWidth" : "76px",
                   "useCellStyleFunction" : false,
                   "cellStyleFunction" : "",
                   "useCellContentFunction" : false,
@@ -150,68 +150,128 @@
                 "aggregationType" : null,
                 "funcBody" : null,
                 "usePostProcessing" : null,
-                "postFuncBody" : null
+                "postFuncBody" : null,
+                "units" : null,
+                "decimals" : null
               }, {
                 "name" : "voltage_V",
                 "type" : "timeseries",
                 "label" : "voltage_V",
                 "color" : "#3f51b5",
-                "settings" : { },
+                "settings" : {
+                  "customTitle" : "",
+                  "columnWidth" : "0px",
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "useCellContentFunctionOnExport" : true,
+                  "cellContentFunction" : "",
+                  "defaultColumnVisibility" : "hidden",
+                  "columnSelectionToDisplay" : "enabled",
+                  "columnExportOption" : "onlyVisible",
+                  "disableSorting" : false
+                },
                 "units" : "V",
-                "decimals" : 0
+                "decimals" : 1,
+                "aggregationType" : "NONE",
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               }, {
                 "name" : "current_A",
                 "type" : "timeseries",
                 "label" : "current_A",
                 "color" : "#ffc107",
-                "settings" : { },
+                "settings" : {
+                  "customTitle" : "",
+                  "columnWidth" : "0px",
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "useCellContentFunctionOnExport" : true,
+                  "cellContentFunction" : "",
+                  "defaultColumnVisibility" : "hidden",
+                  "columnSelectionToDisplay" : "enabled",
+                  "columnExportOption" : "onlyVisible",
+                  "disableSorting" : false
+                },
                 "units" : "A",
-                "decimals" : 1
-              }, {
-                "name" : "accel_resultant_rms",
-                "type" : "timeseries",
-                "label" : "accel_resultant_rms",
-                "color" : "#4caf50",
-                "settings" : { },
-                "decimals" : 2
-              }, {
-                "name" : "battery_voltage_V",
-                "type" : "timeseries",
-                "label" : "battery_voltage_V",
-                "color" : "#f44336",
-                "settings" : { },
-                "units" : "V",
-                "decimals" : 1
+                "decimals" : 2,
+                "aggregationType" : "NONE",
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               }, {
                 "name" : "temp_mean",
                 "type" : "timeseries",
                 "label" : "temp_mean",
                 "color" : "#8bc34a",
-                "settings" : { },
+                "settings" : {
+                  "customTitle" : "",
+                  "columnWidth" : "0px",
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "useCellContentFunctionOnExport" : true,
+                  "cellContentFunction" : "",
+                  "defaultColumnVisibility" : "visible",
+                  "columnSelectionToDisplay" : "enabled",
+                  "columnExportOption" : "onlyVisible",
+                  "disableSorting" : false
+                },
                 "units" : "°C",
-                "decimals" : 1
-              }, {
-                "name" : "pressure_pos_mean",
-                "type" : "timeseries",
-                "label" : "pressure_mean",
-                "color" : "#9c27b0",
-                "settings" : { },
-                "units" : "kPa",
-                "decimals" : 1
+                "decimals" : 1,
+                "aggregationType" : "NONE",
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               }, {
                 "name" : "pressure_neg_mean",
                 "type" : "timeseries",
                 "label" : "pressure_neg_mean",
                 "color" : "#ffeb3b",
-                "settings" : { },
-                "decimals" : 0
+                "settings" : {
+                  "customTitle" : "",
+                  "columnWidth" : "60px",
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "useCellContentFunctionOnExport" : true,
+                  "cellContentFunction" : "",
+                  "defaultColumnVisibility" : "visible",
+                  "columnSelectionToDisplay" : "enabled",
+                  "columnExportOption" : "onlyVisible",
+                  "disableSorting" : false
+                },
+                "units" : "kPa",
+                "decimals" : 0,
+                "aggregationType" : "NONE",
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               }, {
                 "name" : "risk_score",
                 "type" : "timeseries",
                 "label" : "risk_score",
                 "color" : "#e91e63",
-                "settings" : { },
-                "decimals" : 0
+                "settings" : {
+                  "customTitle" : "",
+                  "columnWidth" : "0px",
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "useCellContentFunctionOnExport" : true,
+                  "cellContentFunction" : "",
+                  "defaultColumnVisibility" : "visible",
+                  "columnSelectionToDisplay" : "enabled",
+                  "columnExportOption" : "onlyVisible",
+                  "disableSorting" : false
+                },
+                "decimals" : 0,
+                "aggregationType" : "NONE",
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               }, {
                 "name" : "telemetry_value",
                 "type" : "timeseries",
@@ -6983,16 +7043,16 @@
           "col" : 0,
           "id" : "a4bc5f86-a51e-13d8-861d-2ae4ed35aeaa"
         },
-        "99f72d16-0b4e-6e2d-aa03-850edf23e015" : {
+        "c8e1a7bf-da1e-04ee-656e-deee2b5f69f6" : {
           "typeFullFqn" : "system.input_widgets.update_multiple_attributes",
           "type" : "latest",
           "sizeX" : 7.5,
           "sizeY" : 3,
           "config" : {
             "datasources" : [ {
-              "type" : "entity",
+              "type" : "device",
               "name" : "",
-              "entityAliasId" : "608a7480-a6ae-812b-382d-b73af6852372",
+              "deviceId" : "5da17dc0-ab1a-11f1-9b75-572f450238a2",
               "dataKeys" : [ {
                 "name" : "alertPhoneNumber",
                 "type" : "attribute",
@@ -7009,12 +7069,18 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
             "settings" : {
-              "groupTitle" : "${entityName}",
+              "widgetTitle" : "Alert Phone Number",
+              "showResultMessage" : true,
               "showActionButtons" : true,
+              "updateAllValues" : false,
+              "saveButtonLabel" : "",
+              "resetButtonLabel" : "",
+              "showGroupTitle" : false,
+              "groupTitle" : "${entityName}",
               "fieldsAlignment" : "row",
               "fieldsInRow" : 2,
-              "columnGap" : 10,
-              "rowGap" : 5
+              "rowGap" : 5,
+              "columnGap" : 10
             },
             "title" : "Update Multiple Attributes",
             "dropShadow" : true,
@@ -7030,7 +7096,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "99f72d16-0b4e-6e2d-aa03-850edf23e015"
+          "id" : "c8e1a7bf-da1e-04ee-656e-deee2b5f69f6"
         }
       },
       "states" : {
@@ -7041,40 +7107,40 @@
             "main" : {
               "widgets" : {
                 "960b118b-a248-34ba-d667-f84e4a57062d" : {
-                  "sizeX" : 6,
+                  "sizeX" : 5,
                   "sizeY" : 6,
                   "row" : 0,
                   "col" : 0
                 },
                 "98bd0895-9d9a-df40-aac6-a62ba09a3cae" : {
-                  "sizeX" : 11,
+                  "sizeX" : 13,
                   "sizeY" : 6,
                   "row" : 0,
-                  "col" : 6
+                  "col" : 5
                 },
                 "73b6e07d-0c69-2b36-a6bc-f63b1f4da027" : {
                   "sizeX" : 3,
                   "sizeY" : 1,
-                  "row" : 1,
-                  "col" : 17
+                  "row" : 0,
+                  "col" : 18
                 },
                 "83877415-7ed7-134e-07e1-ec972fc8743f" : {
                   "sizeX" : 3,
                   "sizeY" : 1,
-                  "row" : 1,
-                  "col" : 20
+                  "row" : 0,
+                  "col" : 21
                 },
                 "1b7fa3c9-eb9a-9287-d329-07f349f06e90" : {
                   "sizeX" : 3,
                   "sizeY" : 1,
-                  "row" : 2,
-                  "col" : 17
+                  "row" : 1,
+                  "col" : 18
                 },
                 "5cd09a21-c48a-35dd-5748-f90b1a2c23b6" : {
                   "sizeX" : 3,
                   "sizeY" : 1,
-                  "row" : 2,
-                  "col" : 20
+                  "row" : 1,
+                  "col" : 21
                 },
                 "315fec6a-b205-3509-118c-c1cf4a6e2c60" : {
                   "sizeX" : 9,
@@ -7085,20 +7151,20 @@
                 "681f07c1-9c75-d515-4d1f-0eecb0160275" : {
                   "sizeX" : 7,
                   "sizeY" : 6,
-                  "row" : 10,
+                  "row" : 12,
                   "col" : 0
                 },
                 "1bb79178-3971-b1b0-a700-7d4356f31378" : {
                   "sizeX" : 7,
                   "sizeY" : 6,
-                  "row" : 10,
+                  "row" : 12,
                   "col" : 7
                 },
-                "99f72d16-0b4e-6e2d-aa03-850edf23e015" : {
-                  "sizeX" : 7,
-                  "sizeY" : 3,
-                  "row" : 6,
-                  "col" : 13
+                "c8e1a7bf-da1e-04ee-656e-deee2b5f69f6" : {
+                  "sizeX" : 6,
+                  "sizeY" : 4,
+                  "row" : 2,
+                  "col" : 18
                 }
               },
               "gridSettings" : {
